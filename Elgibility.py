@@ -7,18 +7,7 @@ due_hour = 12
 due_minute = 47
 due_section = "PM"
 
-#You may modify the lines of code above, but don't move them!
-#When you Submit your code, we'll change these lines to
-#assign different values to the variables.
 
-#Given the current time and deadline time represented by the
-#variables above, determine if an assignment is still eligible
-#for submission. An assignment is eligible if the time
-#represented by current_hour, current_minute, and
-#current_section is before the time represented by due_hour,
-#due_minute, and due_section.
-
-#Add your code here!
 
 # Just optimized variables
 ch = current_hour
@@ -33,7 +22,6 @@ if(dh == 12):
     dh = 0
 if(ch == 12):
     ch = 0
-
 
 # PM greater than AM
 S = ds > cs
